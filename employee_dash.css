@@ -1,0 +1,923 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+
+}
+
+.mob-workspace{
+    display: none;
+}
+
+#logobtn {
+    color: white;
+    background-color: rgb(112, 98, 235);
+    border: none;
+    text-align: center;
+    width: 85px;
+    height: 30px;
+}
+
+.logout {
+    width: 10%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#logoutbtn {
+    color: rgb(220, 84, 84);
+    border: none;
+    float: right;
+    width: auto;
+    background-color: white;
+}
+
+.logouticon {
+    color: rgb(220, 84, 84);
+    float: right;
+    cursor: pointer;
+    border-left-style: groove;
+    border-left-color: rgb(98, 99, 99);
+    border-left-width: 1px;
+    padding-left: 3px;
+}
+
+#logoutbtn:hover {
+    background-color: rgb(220, 84, 84);
+    color: white;
+}
+
+.s-bar {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(247, 243, 243);
+    border-color: white;
+    float: right;
+}
+
+.openBtn {
+    display: none;
+}
+
+.mobilenav {
+    display: none;
+}
+
+.navibar {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.navibar div {
+    width: 50%;
+}
+
+.symbols {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.symbols div {
+    width: 20%;
+}
+
+.bi-person-circle {
+    cursor: pointer;
+    float: right;
+    fill: rgb(112, 98, 235);
+}
+
+.bi-person-circle:hover {
+    fill: rgb(112, 98, 210);
+}
+
+.bi-bell-fill {
+    cursor: pointer;
+    float: right;
+    fill: rgb(112, 98, 235);
+}
+
+.bi-bell-fill:hover {
+    fill: rgb(112, 98, 210);
+}
+
+.bi-plus-circle-fill {
+    cursor: pointer;
+    float: right;
+    fill: rgb(112, 98, 235);
+}
+
+.bi-plus-circle-fill:hover {
+    fill: rgb(112, 98, 210);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 1500px;
+
+}
+
+.workspace {
+    flex-basis: 85%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #fdfbfb;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(112, 98, 235);
+    color: white;
+}
+
+.workspace {
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.profilebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.profilebar svg {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.flex-container{
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-container {
+    display: grid;
+    grid: 25% 25% / 50% 50%;
+    padding: 10px;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+div.grid-container{
+    flex-basis: 70%;
+}
+
+div.profile {
+    position: relative;
+    top: 50px;
+    left: 45px;
+    display: block;
+    height: 150px;
+    width: 290px;
+    box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.2), 0 6px 20px 0 rgba(90, 89, 89, 0.2);
+}
+
+.name-icon {
+    color: white;
+    background: rgb(112, 98, 235);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.name {
+    position: relative;
+    top: -43px;
+}
+
+.email {
+    position: relative;
+    left: 68px;
+    top: -21px;
+    width: 60%;
+}
+
+.task1 {
+    width: 30%;
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+.task2 {
+    width: 40%;
+    position: relative;
+    left: 150px;
+    top: -65px;
+}
+
+.buttons {
+    width: 290px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#meetings-btn {
+    background-color: rgb(220, 84, 84);
+    color: aliceblue;
+    border: none;
+    height: 70px;
+    width: 140px;
+}
+
+#meetings-btn:hover {
+    background-color: rgb(218, 214, 214);
+    color: rgb(220, 84, 84);
+    font-weight: bold;
+}
+
+#todo-btn {
+    background-color: rgb(112, 98, 235);
+    color: aliceblue;
+    border: none;
+    width: 135px;
+    height: 70px;
+    position: relative;
+    left: 10px;
+}
+
+#todo-btn:hover {
+    background-color: rgb(218, 214, 214);
+    color: rgb(112, 98, 235);
+    font-weight: bold;
+}
+
+#completed-btn {
+    background-color: rgb(112, 98, 235);
+    color: aliceblue;
+    border: none;
+    height: 70px;
+    width: 140px;
+    position: relative;
+    top: 10px;
+}
+
+#completed-btn:hover {
+    background-color: rgb(218, 214, 214);
+    color: rgb(112, 98, 235);
+    font-weight: bold;
+}
+
+.event-calender {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+div.event-calender{
+    flex-basis: 30%;
+}
+
+div.calender{
+    flex-basis: 30%;
+}
+
+div.events{
+    flex-basis: 70%;
+}
+
+#cal {
+    position: relative;
+    top: 50px;
+    border: 2px solid rgb(112, 98, 235);
+}
+
+.performance {
+    box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.2), 0 6px 20px 0 rgba(90, 89, 89, 0.2);
+    height: 150px;
+    width: 290px;
+    position: relative;
+    left: 45px;
+    top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+
+    .progress-bar1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        position: absolute;
+        left: 10px;
+        top: 55px;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background:
+            radial-gradient(closest-side, white 79%, transparent 80% 100%),
+            conic-gradient(rgb(220, 84, 84) 60%, rgb(221, 220, 220) 0);
+    }
+
+    .progress-bar1::before {
+        content: "60%";
+    }
+
+    .progress-bar2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        position: absolute;
+        left: 105px;
+        top: 55px;
+
+
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background:
+            radial-gradient(closest-side, white 79%, transparent 80% 100%),
+            conic-gradient(rgb(112, 98, 235) 40%, rgb(221, 220, 220) 0);
+    }
+
+    .progress-bar2::before {
+        content: "40%";
+    }
+
+    .progress-bar3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        position: absolute;
+        left: 200px;
+        top: 55px;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background:
+            radial-gradient(closest-side, white 79%, transparent 80% 100%),
+            conic-gradient(rgb(112, 98, 235) 80%, rgb(221, 220, 220) 0);
+    }
+
+    .progress-bar3::before {
+        content: "80%";
+    }
+}
+
+.todo {
+    width: 30%;
+    position: relative;
+    top: 100px;
+    left: 4px;
+}
+
+.meetings {
+    width: 30%;
+    position: relative;
+    top: 65px;
+    left: 100px;
+}
+
+.leaves {
+    width: 30%;
+    position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+.work {
+    box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.2), 0 6px 20px 0 rgba(90, 89, 89, 0.2);
+    height: 150px;
+    width: 290px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+
+.openBtn {
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.openBtn:hover {
+    background: #bbb;
+}
+
+.overlaysearch {
+    height: 50%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlaysearch-content {
+    position: relative;
+    top: 46%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlaysearch .closebtn {
+    position: absolute;
+    right: 10px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlaysearch .closebtn:hover {
+    color: #ccc;
+}
+
+.overlaysearch input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+
+.overlaysearch input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlaysearch button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlaysearch button:hover {
+    background: #bbb;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1370px) {
+    html {
+        font-size: 0.75rem;
+    }
+
+    div.grid-container{
+        flex-basis: 65%;
+    }
+
+    div.event-calender{
+        flex-basis: 35%;
+    }
+
+    div.profile{
+        position: relative;
+        left: 15px;
+    }
+
+    .buttons{
+        position: relative;
+        left: 20px;
+    }
+
+    .performance{
+        position: relative;
+        left: 15px;
+    }
+
+    .work{
+        position: relative;
+        left: 20px;
+    }
+
+    .task2{
+        position: relative;
+        top: -52px;
+    }
+}
+
+@media only screen and (max-width: 1201px) {
+
+    .workspace{
+        flex-basis: 81%;
+    }
+
+    html {
+        font-size: 0.85rem;
+    }
+
+    div.flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-container{
+        grid: 40% 40% / 50% 50%;
+    }
+
+    div.grid-container{
+        flex-basis: 50%;
+    }
+
+    div.event-calender{
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.calender{
+        flex-basis: 50%;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    html {
+        font-size: 0.65rem;
+    }
+
+    ul svg {
+        width: 10%;
+        height: 10%;
+    }
+
+    .textarea {
+        width: 70%;
+    }
+
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    header svg {
+        width: 30%;
+    }
+
+    .logouticon div {
+        float: right;
+    }
+
+    .logouticon {
+        padding-left: 1px;
+    }
+
+    .logouticon svg {
+        width: 75%;
+    }
+
+    #logoutbtn {
+        height: 50%;
+    }
+
+    .logout {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    button#logobtn {
+        width: 50px;
+        height: 30px;
+    }
+
+    div.profile{
+        scale: 0.9;
+        position: relative;
+        left: 0px;
+    }
+
+    .buttons{
+        scale: 0.9;
+        position: relative;
+        left: 0px;
+    }
+
+    .performance{
+        scale: 0.9;
+        position: relative;
+        left: 0px;
+    }
+
+    .work{
+        scale: 0.9;
+        position: relative;
+        left: 0px;
+    }
+
+    .grid-container{
+        grid: 40% 40% / 50% 50%;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+    .side-nav ul {
+        display: none;
+    }
+
+    .workspace{
+        flex-basis: 92%;
+        width: 95%;
+    }
+
+    .mobilenav {
+        display: contents;
+    }
+
+    .s-bar {
+        width: 125px;
+    }
+
+    header svg {
+        width: 40%;
+    }
+
+    .grid-container{
+        grid: 40% 40% / 50% 50%;
+
+    }
+    
+    div.profile{
+        scale: 0.85;
+        position: relative;
+        left: -15px;
+    }
+
+    .buttons{
+        scale: 0.85;
+        position: relative;
+        left: -15px;
+    }
+
+    .performance{
+        scale: 0.85;
+        position: relative;
+        left: -15px;
+    }
+
+    .work{
+        scale: 0.85;
+        position: relative;
+        left: -15px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+    
+
+    .mob-workspace{
+        display: contents;
+    }
+    .side-nav ul {
+        display: none;
+    }
+
+    .workspace {
+        flex-basis: 92%;
+    }
+
+    .mobilenav {
+        display: contents;
+    }
+
+    .s-bar {
+        display: none;
+    }
+
+    header svg {
+        width: 40%;
+    }
+
+    .overlaysearch {
+        display: block;
+    }
+
+    .openBtn {
+        display: block;
+    }
+
+    .navibar {
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .logout {
+        width: 25%;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    button#logobtn {
+        width: 55px;
+    }
+
+    .navibar.search {
+        width: 25%;
+    }
+
+    .navibar.symbols {
+        width: 75%;
+    }
+
+    .symbols svg {
+        width: 75%;
+    }
+
+    .select {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    div.profile{
+        scale: 0.65;
+        position: relative;
+        left: -45px;
+    }
+
+    .buttons{
+        scale: 0.65;
+        position: relative;
+        left: -45px;
+    }
+
+    .performance{
+        scale: 0.65;
+        position: relative;
+        left: -45px;
+    }
+
+    .work{
+        scale: 0.65;
+        position: relative;
+        left: -45px;
+    }
+}
+
+
+@media only screen and (max-width:451px) {
+
+    button#logobtn {
+        height: 25px;
+    }
+
+    .navibar.symbols {
+        width: 100%;
+    }
+
+    .symbols div {
+        width: 30%;
+    }
+
+    .symbols {
+        justify-content: flex-start;
+    }
+
+   .flex-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .grid-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .workspace{
+    width: 90%;
+   }
+
+   div.grid-container{
+    flex-basis: 60%;
+   }
+
+   div.profile{
+    position: relative;
+    top: 0px;
+    left: -25px;
+   }
+
+   .buttons{
+    position: relative;
+    top: 0px;
+    left: -25px;
+   }
+
+   .performance{
+    position: relative;
+    top: 0px;
+    left: -25px;
+   }
+
+   .work{
+    position: relative;
+    top: 0px;
+    left: -25px;
+   }
+}
